@@ -7,7 +7,7 @@ a {
 	color: rgb(209, 28, 152);
 }
 
-.neighbours + ul {
+.neighbours+ul {
 	color: rgb(204, 39, 132);
 	text-align: center;
 }
@@ -17,7 +17,7 @@ a {
 	font-weight: bold;
 }
 
-.tilda ~ li {
+.tilda~li {
 	color: aqua;
 }
 
@@ -32,10 +32,9 @@ a {
 }
 
 a[href$="html"] {
-	background-color:gold;
-} 
+	background-color: gold;
+}
 
-.plus + .plus1 {
+.plus+.plus1 {
 	color: blueviolet;
 }
-	
