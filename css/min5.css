@@ -1,0 +1,41 @@
+a {
+	text-decoration: none;
+	color: rgb(44, 3, 167);
+}
+
+.selector {
+	color: rgb(209, 28, 152);
+}
+
+.neighbours + ul {
+	color: rgb(204, 39, 132);
+	text-align: center;
+}
+
+#bold-red {
+	color: rgba(106, 4, 4, 0.622);
+	font-weight: bold;
+}
+
+.tilda ~ li {
+	color: aqua;
+}
+
+.selector.red {
+	color: red;
+	text-align: center;
+}
+
+.selector.green {
+	color: green;
+	text-align: center;
+}
+
+a[href$="html"] {
+	background-color:gold;
+} 
+
+.plus + .plus1 {
+	color: blueviolet;
+}
+	
