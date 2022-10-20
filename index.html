@@ -5,49 +5,139 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Селекторы</title>
+	<title>Document</title>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="/css/m5.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/css/normalize.css">
+	<link rel="stylesheet" href="/css/hw.css">
 </head>
 
 <body>
-
 	<header>
-		<nav class="HW">
-			<a href="/min5.index.html">Домашка</a>
-		</nav>
+		<div class="conteiner">
+			<div class="wrapper_menu">
+				<menu>
+					<ul class="navi">
+						<li><a class="home" href="#">HOMEPAGE</a></li>
+						<li><a href="#">About author</a></li>
+						<li><a href="#">Works</a></li>
+						<li><a href="#">Process</a></li>
+						<li><a href="#">Contacts</a></li>
+					</ul>
+				</menu>
+			</div>
+		</div>
 	</header>
 	<main>
-		<ol>
-			<li><b>A B</b>-В качестве селектора может выступать любой элемент HTML, для которого определяются правила
-				форматирования, такие как: цвет, фон, размер и др.</li>
-			<li><b>#Id</b>-Идентификатор определяет уникальное имя элемента, которое используется для изменения его стиля и
-				обращения к нему через скрипты.</li>
-			<li><b>.class</b>-применяют,когда необходимо определить стиль для одного или нескольких элементов
-				веб-страницы.Можно добавлять несколько классов к 1 элементу через пробел</li>
-			<li>*-устанавливает стиль для всех элементов веб-страницы. Универсальный селектор, которий соотвествует любому
-				эелементу веб-страницы</li>
-			<li>Вложенные селекторы-E F {Описание правил стиля}. Применяет стиль для вложенного элемента,при соблюдении
-				вложенности кода.</li>
-			<li>A > B(Дочерние селекторы Стиль применяется к элементу В, только когда он является дочерним для элемента А.
-			</li>
-			<li>A + B -Для управления стилем соседних элементов используется символ плюса(+),который устанавливается между
-				двумя селекторами E и F. Пробелы вокруг плюса не обязательны. Стиль при такой записи применяется к элементу
-				F,
-				но только в том случае, если он является соседним для элемента E и следует сразу после него. </li>
-			<li>A ~ B-похожи на "+",но в отличие от них стилевые правила применяются ко всем близлежащим элементам</li>
-			<li>attr-Стиль применяется к тем элементам, внутри которых добавлен указанный атрибут. Пробел между именем
-				селектора и квадратными скобками не допускается.</li>
-			<li>attr^='value'- начало с "указанного" текста. Можно добавлять к определенным селекторам f.e:E атрибут^="
-				значение"
-			</li>
-			<li>attr$='value'-окончание "указанного" текста</li>
-			<li>attr~='value'-Некоторые значения атрибутов могут перечисляться через пробел, например имена классов.
-				Чтобы задать стиль при наличии в списке требуемого значения требуется использовать конструкцию ~=.</li>
-		</ol>
+		<div class="caption">
+			<div class="conteiner">
+				<div class="text-block">
+					<h1>Design and layout</h1>
+					<p>Lorem Ipsum is fish text often used in print and web design. Lorem Ipsum has been the standard "fish"
+						for Latin texts since the early 16th century.</p>
+					<a class="btn" href="#">WRITE ME</a>
+				</div>
+			</div>
+		</div>
+		<div class="conteiner">
+			<div class="about">
+				<h2>About me</h2>
+				<p>About meLorem Ipsum is fish text often used in print and web design. Lorem Ipsum has been the standard
+					"fish" for Latin texts since the early 16th century.
+				</p>
+			</div>
+		</div>
+		<div class="blu_block">
+			<div class="conteiner">
+				<ul>
+					<li>
+						<div class="content">
+							<img src="/image/project.png" alt="">
+						</div>
+						<div class="content">
+							<span>40+</span>
+							<br>
+							<span>projects</span>
+						</div>
+					</li>
+					<li>
+						<div class="content">
+							<img src="/image/project.png" alt="">
+						</div>
+						<div class="content">
+							<span>40+</span>
+							<br>
+							<span>projects</span>
+						</div>
+					</li>
+					<li>
+						<div class="content">
+							<img src="/image/project.png" alt="">
+						</div>
+						<div class="content">
+							<span>40+</span>
+							<br>
+							<span>projects</span>
+						</div>
+					</li>
+					<li>
+						<div class="content">
+							<img src="/image/project.png" alt="">
+						</div>
+						<div class="content">
+							<span>40+</span>
+							<br>
+							<span>projects</span>
+						</div>
+					</li>
+					<li>
+						<div class="content">
+							<img src="/image/project.png" alt="">
+						</div>
+						<div class="content">
+							<span>40+</span>
+							<br>
+							<span>projects</span>
+						</div>
+					</li>
+					<li>
+						<div class="content">
+							<img src="/image/project.png" alt="">
+						</div>
+						<div class="content">
+							<span>40+</span>
+							<br>
+							<span>projects</span>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="conteiner">
+			<div class="How_do_I_work">
+				<div class="work_text">
+					<h2>How do I work</h2>
+					<p>Lorem Ipsum is fish text often used in print and web design. Lorem Ipsum has been the standard "fish"
+						for
+						Latin texts since the early 16th century.</p>
+				</div>
+			</div>
+			<div class="video">
+				<iframe src="https://www.youtube.com/embed/vELJ1wkuSkw" style="border:0;" allowfullscreen>
+				</iframe>
+			</div>
+		</div>
 	</main>
+	<footer>
+		<div class="conteiner">
+			<div>
+				<h3>John Smith</h3>
+				<span>(c) 2018. All rights reserved.</span>
+			</div>
+		</div>
+	</footer>
+
 </body>
 
 </html>

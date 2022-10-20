@@ -1,0 +1,180 @@
+body {
+	max-width: 100%;
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.conteiner {
+	max-width: 1100px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
+header {
+	background-color: #EEEFF1;
+	padding-top: 80px;
+}
+
+menu {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+}
+
+.navi {
+	margin: 0;
+	padding: 0;
+}
+
+.home {
+
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	color: #34547A;
+}
+
+.caption {
+	background-color: #EEEFF1;
+	padding: 150px 0 140px;
+}
+
+.about {
+	text-align: center;
+	width: 540px;
+	margin: 0 auto;
+	color: #727272;
+	padding: 100px 0;
+}
+
+h1 {
+	font-weight: 500;
+	font-size: 48px;
+	line-height: 79px;
+	color: #000000;
+}
+
+h2 {
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 38px;
+	color: #000000
+}
+
+h3 {
+	font-weight: 500;
+	font-size: 21px;
+	line-height: 25px;
+	color: #FFFFFF;
+}
+
+.blu_block {
+	background-color: #34547A;
+	padding: 100px 0;
+}
+
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.content {
+	vertical-align: top;
+	display: inline-block;
+	max-width: 100%;
+	color: #EEEFF1;
+}
+
+.blu_block li {
+	margin-right: 40px;
+}
+
+.blu_block li div:first-child {
+	margin-right: 20px;
+}
+
+li a {
+	text-decoration: none;
+	margin-right: 42px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #000000;
+}
+
+.text-block {
+	max-width: 540px;
+	margin: 0;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #727272;
+}
+
+.btn {
+	display: inline-block;
+	background-color: #34547A;
+	max-width: 225px;
+	padding: 20px 40px;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 26px;
+	color: #EEEFF1;
+	text-decoration: none;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	margin-top: 65px;
+
+}
+
+.btn:hover {
+	cursor: pointer;
+	background-color: rgb(47, 30, 174);
+
+}
+
+.img_description {
+	display: inline-block;
+}
+
+.How_do_I_work {
+	padding: 100px 0 54px;
+	margin: 0 auto;
+}
+
+.work_text {
+	text-align: center;
+	width: 540px;
+	margin: 0 auto;
+	color: #727272;
+
+}
+
+iframe {
+	width: 1110px;
+	height: 600px;
+	left: 405px;
+	top: 1613px;
+	padding: 0 0 100px;
+}
+
+footer {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 21px;
+	color: #FFFFFF;
+	background-color: #34547A;
+	padding: 50px 0;
+}
+
+menu>ul>li>a:hover {
+	cursor: pointer;
+	background-color: #438eea;
+}
