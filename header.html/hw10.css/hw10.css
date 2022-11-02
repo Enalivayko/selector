@@ -1,0 +1,99 @@
+@media (min-width: 340px) and (max-width: 800px) {
+	.menu-item,
+	.conteiner {
+		padding: 3px;
+		font-size: 10px;
+	}
+}
+
+nav {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	position: fixed;
+	max-width: 100%;
+	left: 0;
+	right: 0;
+}
+
+nav:after {
+	content: '';
+	display: block;
+	clear: none;
+}
+
+main {
+	padding: 100px;
+	/* position: relative; */
+}
+
+.menu {
+	margin: 0;
+	list-style: none;
+	background-color: rgb(12, 12, 10);
+}
+
+.menu::after {
+	content: '';
+	display: block;
+	clear: both;
+	width: 100%;
+	background-color: aqua;
+}
+
+.menu a:hover {
+	color: rgb(234, 234, 234);
+	background: rgb(76, 65, 115);
+}
+
+li {
+	list-style: none;
+	border: 1px solid rgba(48, 22, 22, 0.31);
+}
+
+li>a {
+	display: block;
+	padding: 15px;
+}
+
+.menu>li {
+	box-sizing: border-box;
+	float: left;
+	position: relative;
+	border: 2px solid black;
+	width: calc(100%/5);
+
+}
+
+.menu ul {
+	position: absolute;
+	top: 100%;
+	left: 0;
+	max-width: 100%;
+	display: none;
+	background-color: rgba(69, 127, 228, 0.826);
+
+}
+
+.menu li:hover>ul {
+	display: block;
+	width: 100%;
+	right: 0;
+}
+
+.menu a {
+	color: white;
+}
+
+.menu-item {
+	text-transform: uppercase;
+	margin: 0 auto;
+}
+
+.menu ul li ul {
+	left: 100%;
+	top: 50%;
+}
+
+.conteiner {
+	max-width: 1140px;
+	margin: 0 auto;
+}
