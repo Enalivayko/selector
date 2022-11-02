@@ -1,4 +1,5 @@
 @media (min-width: 340px) and (max-width: 800px) {
+
 	.menu-item,
 	.conteiner {
 		padding: 3px;
@@ -6,23 +7,19 @@
 	}
 }
 
-nav {
+header {
 	font-family: 'Roboto', Arial, Helvetica, sans-serif;
 	position: fixed;
 	max-width: 100%;
 	left: 0;
 	right: 0;
+	z-index: 999;
 }
 
 nav:after {
 	content: '';
 	display: block;
 	clear: none;
-}
-
-main {
-	padding: 100px;
-	/* position: relative; */
 }
 
 .menu {
@@ -93,7 +90,14 @@ li>a {
 	top: 50%;
 }
 
-.conteiner {
+main {
+	position: relative;
+	top: 100px;
 	max-width: 1140px;
+	z-index: 3;
 	margin: 0 auto;
+}
+
+.conteiner {
+	background-color: antiquewhite;
 }
