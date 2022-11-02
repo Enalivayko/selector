@@ -36,8 +36,8 @@ nav:after {
 	background-color: aqua;
 }
 
-.menu a:hover {
-	color: rgb(234, 234, 234);
+.menu li:hover {
+	color: rgb(169, 62, 62);
 	background: rgb(76, 65, 115);
 }
 
@@ -55,7 +55,7 @@ li>a {
 	box-sizing: border-box;
 	float: left;
 	position: relative;
-	border: 2px solid black;
+	border: 2px solid rgb(81, 24, 24);
 	width: calc(100%/5);
 
 }
@@ -67,7 +67,7 @@ li>a {
 	max-width: 100%;
 	display: none;
 	background-color: rgba(69, 127, 228, 0.826);
-
+	z-index: 222;
 }
 
 .menu li:hover>ul {
